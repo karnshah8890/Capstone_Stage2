@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "496218969997",
+    "firebase_url": "https://reddit-reader-d6031.firebaseio.com",
+    "project_id": "reddit-reader-d6031",
+    "storage_bucket": "reddit-reader-d6031.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496218969997:android:0a5c6784dcb381b8",
+        "android_client_info": {
+          "package_name": "com.ks.redditreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496218969997-k20l5iefp27jt4v06ga7ncpkia8pc6ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ks.redditreader",
+            "certificate_hash": "18C1B7584DAB49EBC46ED6EC48FAC102720BBE9C"
+          }
+        },
+        {
+          "client_id": "496218969997-3vs4l7qcoqggqbao5femqpm4ca2qcf0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHvcsp4tbuC1t8F5-RQ5PqVMmh2KZOBXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496218969997-3vs4l7qcoqggqbao5femqpm4ca2qcf0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

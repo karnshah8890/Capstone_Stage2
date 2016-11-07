@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "537914478260",
+    "firebase_url": "https://reddit-reader-paid.firebaseio.com",
+    "project_id": "reddit-reader-paid",
+    "storage_bucket": "reddit-reader-paid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537914478260:android:759737933d1a1f2c",
+        "android_client_info": {
+          "package_name": "com.ks.redditreader.paid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537914478260-65nujs8e7h3e0ogcahb5g4j69hp83qd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb6sG1BJ3H5BBqhoG11GL1jYM7UosN3Dk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

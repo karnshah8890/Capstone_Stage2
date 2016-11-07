@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/colorPrimary"
+                  android:orientation="horizontal">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@mipmap/ic_launcher"
+                   android:scaleType="centerInside"
+                   android:contentDescription="@string/app_icon"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/app_name"
+                  style="@style/Base.TextAppearance.AppCompat.Title"
+                  android:textColor="#ffffff"
+                  android:textSize="14sp"
+                  android:paddingRight="@dimen/card_padding_right"
+                  android:paddingEnd="@dimen/card_padding_right"
+                  android:paddingTop="@dimen/appwidget_heading_vertical_padding"
+                  android:paddingBottom="@dimen/appwidget_heading_vertical_padding"
+        />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/empty_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="@string/no_items"
+              style="@style/Base.TextAppearance.AppCompat.Body1"
+              android:background="@color/white"
+              android:textColor="@color/colorAccent"
+              android:textSize="24sp"
+              android:gravity="center"
+              tools:visibility="gone"
+    />
+    <ListView
+            android:id="@+id/widget_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/listdivider"
+            android:dividerHeight="1px"
+            tools:listitem="@layout/list_item_appwidget"
+            android:background="@color/white"
+            android:theme="@style/AppTheme"/>
+
+
+</LinearLayout>

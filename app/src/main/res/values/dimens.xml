@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="card_padding_right">16dp</dimen>
+    <dimen name="card_padding_left">16dp</dimen>
+    <!--<dimen name="widget_margin">8dp</dimen>-->
+    <dimen name="progress_bar_height">3dp</dimen>
+    <dimen name="appwidget_heading_vertical_padding">8dp</dimen>
+    <dimen name="title_padding_top">20dp</dimen>
+    <dimen name="title_padding_bottom">8dp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="subtext_padding_bottom">8dp</dimen>
+    <dimen name="text_size_subtext">14sp</dimen>
+    <dimen name="stats_panel_padding_bottom">24dp</dimen>
+    <dimen name="up_arrow_iv_width">15dp</dimen>
+    <dimen name="stats_panel_horizontal_padding">4dp</dimen>
+    <dimen name="edittext_padding">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="header_layout_padding_top">64dp</dimen>
+    <dimen name="header_layout_padding_bottom">16dp</dimen>
+    <dimen name="header_layout_title_padding_top">24dp</dimen>
+    <dimen name="header_layout_title_padding_to">16dp</dimen>
+    <dimen name="header_layout_title_size">24sp</dimen>
+    <dimen name="header_layout_body_textsize">16sp</dimen>
+</resources>

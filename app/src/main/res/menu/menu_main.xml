@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".BaseMainActivity">
+
+    <item android:id="@+id/action_add_subreddit"
+          android:title="@string/action_add_subreddit"
+          android:icon="@drawable/ic_add_white_24dp"
+          app:icon="@drawable/ic_add_white_24dp"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/action_manage_subreddits"
+          android:title="@string/action_manage_subreddits"
+          android:icon="@drawable/ic_settings_white_24dp"
+          app:icon="@drawable/ic_settings_white_24dp"
+          app:showAsAction="ifRoom"/>
+
+    <!--<item android:id="@+id/action_settings"-->
+          <!--android:title="@string/action_settings"-->
+          <!--android:orderInCategory="100"-->
+          <!--app:showAsAction="never"/>-->
+
+</menu>

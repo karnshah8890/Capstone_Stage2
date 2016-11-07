@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/list_item_submission">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/thumbnail_for_the_post"
+        android:scaleType="fitCenter"
+        android:src="@drawable/empty_detail" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="@dimen/title_padding_bottom"
+        android:paddingEnd="@dimen/card_padding_right"
+        android:paddingLeft="@dimen/card_padding_left"
+        android:paddingRight="@dimen/card_padding_right"
+        android:paddingStart="@dimen/card_padding_left"
+        android:paddingTop="@dimen/title_padding_top"
+        android:textSize="@dimen/text_size_title"
+        tools:text="A Flatiron State of Mind" />
+
+    <TextView
+        android:id="@+id/subtext"
+        style="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/subtext_padding_bottom"
+        android:paddingEnd="@dimen/card_padding_right"
+        android:paddingLeft="@dimen/card_padding_left"
+        android:paddingRight="@dimen/card_padding_right"
+        android:paddingStart="@dimen/card_padding_left"
+        android:textSize="@dimen/text_size_subtext"
+        tools:text="r/movies &#8226; 4h &#8226; TheEagles" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/stats_panel_padding_bottom"
+        android:paddingEnd="@dimen/card_padding_right"
+        android:paddingLeft="@dimen/card_padding_left"
+        android:paddingRight="@dimen/card_padding_right"
+        android:paddingStart="@dimen/card_padding_left">
+
+        <ImageView
+            android:id="@+id/up_arrow"
+            android:layout_width="@dimen/up_arrow_iv_width"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/up_arrow_icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_up_arrow" />
+
+        <TextView
+            android:id="@+id/upvotes_text"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_subtext"
+            android:textColor="@android:color/black"
+            tools:text="472" />
+
+        <ImageView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/comments_icon"
+            android:paddingLeft="@dimen/stats_panel_horizontal_padding"
+            android:paddingStart="@dimen/stats_panel_horizontal_padding"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_comments" />
+
+        <TextView
+            android:id="@+id/comments_text"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingLeft="@dimen/stats_panel_horizontal_padding"
+            android:paddingStart="@dimen/stats_panel_horizontal_padding"
+            android:paddingRight="@dimen/card_padding_right"
+            android:paddingEnd="@dimen/card_padding_right"
+            android:textSize="@dimen/text_size_subtext"
+            tools:text="72" />
+
+    </LinearLayout>
+
+</LinearLayout>

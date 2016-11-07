@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Reddit Reader</string>
+    <string name="app_description">App developed as part of Android nano-degree course. It shows reddits posts in an easy-to-view card layout. Users can add and remove subreddits that they will like to follow.</string>
+    <string name="hey_checkout_reddit_post">Hey! Check out this cool reddit post\n\n</string>
+    <string name="reddit_post">Reddit post</string>
+    <string name="app_icon">App icon</string>
+    <string name="no_items">No items!</string>
+    <string name="thumbnail_for_the_post">Thumbnail for the post</string>
+    <string name="up_arrow_icon">up_arrow_icon</string>
+    <string name="comments_icon">comments icon</string>
+    <string name="bullet_point">&#8226;</string>
+    <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+    <string name="topic">Topic</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_add_subreddit">Add Subreddit</string>
+    <string name="action_manage_subreddits">Manage Subreddits</string>
+
+    <string name="remove_subreddit">Remove subreddit</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="title_activity_manage_subreddits">Manage Subreddits</string>
+</resources>
