@@ -58,6 +58,10 @@ android {
             resValue "string", "authority", "${applicationId}.provider"
         }
     }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+    }
 }
 
 dependencies {
